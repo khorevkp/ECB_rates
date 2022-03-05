@@ -8,6 +8,5 @@ setup(
     url='https://github.com/khorevkp/ECB_rates',               # package URL
     install_requires=[],                    # list of packages this package depends
                                             # on.
-    packages=['ecbfxrates'],              # List of module names that installing
-                                            # this package will provide.
+    packages=setuptools.find_packages(exclude=['tests*']),
 )
