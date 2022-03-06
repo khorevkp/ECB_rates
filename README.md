@@ -19,4 +19,4 @@ ecb.get_ecb_rates("USD", "2022-03-01")
 ```
 
 ### License
-MIT licensed. 
+MIT licensed. Check the [`LICENSE`](https://github.com/khorevkp/ECB_rates/blob/master/LICENSE) file for full details.
