@@ -24,7 +24,7 @@ def get_ecb_rates(currency, start_period):
 
     rate_list = []
     for k in range(2, len(root[1][0])):  # the data starts at xml-tree element root[1][0],
-        # this can be checked by looking at recieved data in the browser
+        # this can be checked by looking at received data in the browser
         date = root[1][0][k][0].attrib['value']
         rate = root[1][0][k][1].attrib['value']
         rate_list.append((date, rate))
