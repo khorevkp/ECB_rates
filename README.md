@@ -9,7 +9,7 @@ This library provides historical exchange rates from European Central Bank.
 
 ## Basic Usage
 
-Function get_ecb_rates accepts two parameters: the currency code and the start_date.
+Function get_ecb_rates() accepts two parameters: the currency code and the start_date.
 It returns a pandas dataframe with all historical FX rates of the requested currency against EUR for the period since the requested start_date till most recent available date.
 
 ```
